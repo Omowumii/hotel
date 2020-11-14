@@ -1,0 +1,149 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    .text-primary {
+        color: rgb(243, 178, 12);
+        font-size: 90px;
+    }
+    
+
+    /* Utility Classes */
+.container {
+    margin: auto;
+    overflow: auto;
+    padding: 0 18px;
+}
+
+
+.btn {
+    font-size: 20px;
+     color: white; 
+    display: inline-block;
+    text-align: center;
+     background: black;  
+    width: 200px;
+    padding: 11px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.btn:hover {
+    background: black;
+    color: gold;
+}
+
+    /* Navbar */
+ #navbar {
+    background: black;
+    color: #fff;
+    overflow: auto;
+    margin-top: 0px; 
+
+} 
+
+
+#navbar a {
+    color: #fff;
+    font-size: 18px;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}               
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+}  
+
+#navbar ul li a:hover { 
+    border-top: 3px solid #cd9b1c;
+    color:#cd9b1c;
+}
+
+.Info5 {
+    background-color:rgba(205, 155, 28, 1);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    height: 120px;
+    width: auto;
+}
+
+.Info5 a {
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.Info5 a:hover {
+    text-decoration: underline;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    background: black;
+    color:#cd9b1c;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 22px;
+    margin-top: 30px;
+    width: 480px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#main-footer {
+    margin-top: 750px;
+    border-top: 1px solid rgba(255,255,255,.1);
+    color: #cd9b1c;
+    text-align: left;
+    background:black;
+   padding: 20px;
+} 
